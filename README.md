@@ -1,6 +1,6 @@
 # FrontEndNav
 
-​
+
 
 > :label: FrontEndNav是Hulkye推出的前端导航，收录了大量高质量前端相关站点，为广大用户提供学习网站、学习方向、学习途径、最新前端框架等内容。收录国内外前端网站。 
 
@@ -80,4 +80,22 @@
 地址: http://www.alloyteam.com/nav/
 
 
+
+---
+
+
+
+### 数据请求更改路径
+
+```
+js\index.js
+```
+
+```javascript
+$.getJSON(    'https://raw.githubusercontent.com/Hulkye/FrontEndNav/master/data/db.json',
+...
+
+相对项目路径
+./data/db.json
+```
 
